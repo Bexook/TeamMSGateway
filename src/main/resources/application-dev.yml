@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-176-34-211-0.eu-west-1.compute.amazonaws.com:5432/d5fdaeoa8pv3a
+    driverClassName: org.postgresql.Driver
+    password: 39d15fae888ee50d10973beb001172a87f12ebcf2bee54b2d395ee647f837d66
+    username: fwroyxzmouaqlk
+    sql-script-encoding: UTF-8
+
+  main:
+     web-application-type: reactive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+jwt:
+  secret: jWtSecreTk_e_y
+  expiration: 30
+
+
+system:
+  api:
+    key: Z2F0ZXdheS10ZWFtLW1z #gateway-team-ms
+    secret-key: Z2F0ZVZWcEBzc3dvcmQ= #gateVVp@ssword
